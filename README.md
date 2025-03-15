@@ -1,4 +1,4 @@
-# ConvoBoost - Conversation Practice for Introverts
+# Solora - Conversation Practice for Introverts
 
 ConvoBoost is an interactive voice chatbot designed to help introverts practice and improve their conversation skills in a safe, judgment-free environment.
 
