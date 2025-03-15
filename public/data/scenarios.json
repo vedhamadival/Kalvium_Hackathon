@@ -1,0 +1,58 @@
+{
+  "scenarios": [
+    {
+      "id": 1,
+      "title": "Speaking Up Against Misbehavior",
+      "context": "You notice a group of boys making inappropriate comments towards female classmates",
+      "difficulty": "hard",
+      "initialPrompt": "How would you approach this situation and speak up against this behavior?",
+      "suggestedResponses": [
+        "Excuse me, I don't think those comments are appropriate or respectful.",
+        "I'm not comfortable with the way you're talking about our classmates.",
+        "That kind of behavior isn't okay. How would you feel if someone spoke that way about your sister or friend?"
+      ],
+      "tips": [
+        "Stay calm and composed",
+        "Use a firm but non-aggressive tone",
+        "Focus on the behavior, not the person",
+        "Seek support from others if needed"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Initiating a Casual Conversation",
+      "context": "You're sitting next to someone new in class/work",
+      "difficulty": "easy",
+      "initialPrompt": "How would you start a conversation with your new seatmate?",
+      "suggestedResponses": [
+        "Hi, I don't think we've met before. I'm [name].",
+        "That's an interesting book/laptop sticker. Are you into [related topic]?",
+        "How are you finding the class/work so far?"
+      ],
+      "tips": [
+        "Start with a simple greeting",
+        "Notice something about them that could be a conversation starter",
+        "Ask open-ended questions",
+        "Show genuine interest in their responses"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Handling Social Anxiety in Group Settings",
+      "context": "You're in a team meeting and need to share your ideas",
+      "difficulty": "medium",
+      "initialPrompt": "How would you contribute your ideas in a group setting?",
+      "suggestedResponses": [
+        "I've been thinking about this, and I have an idea I'd like to share...",
+        "Building on what [previous speaker] said, I think we could also consider...",
+        "From my perspective, one approach could be..."
+      ],
+      "tips": [
+        "Take deep breaths before speaking",
+        "Write down your points beforehand",
+        "Start with a confident opener",
+        "Remember that your input is valuable"
+      ]
+    }
+  ]
+}
