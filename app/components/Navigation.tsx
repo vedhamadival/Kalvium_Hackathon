@@ -17,7 +17,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <Link href="/" className="text-xl font-bold">
-              ConvoBoost
+              SoloraAI
             </Link>
           </div>
           <div className="flex space-x-4">

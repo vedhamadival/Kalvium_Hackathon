@@ -13,6 +13,7 @@ interface ConversationMetrics {
   overallScore: number;
   improvements: string[];
   strengths: string[];
+  analysis?: string;
 }
 
 interface Props {
@@ -91,7 +92,7 @@ const ConversationReport: React.FC<Props> = ({
         </div>
       </div>
 
-      {/* Response Comparison */}
+      {/* Response Analysis */}
       <div className="mb-6">
         <h3 className="font-semibold mb-4">Response Analysis</h3>
         <div className="space-y-4">
@@ -100,6 +101,8 @@ const ConversationReport: React.FC<Props> = ({
             <p className="text-gray-700">{userResponse}</p>
           </div>
           <div className="bg-green-50 p-4 rounded-lg">
+            <h4 className="font-medium mb-2">AI Analysis:</h4>
+            <p className="text-gray-700 mb-4">{metrics.analysis || 'No analysis available.'}</p>
             <h4 className="font-medium mb-2">Suggested Responses:</h4>
             <ul className="list-disc list-inside space-y-2">
               {suggestedResponses.map((response, index) => (
